@@ -1,0 +1,30 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+<<<<<<< HEAD
+	],
+	"settings":
+	{
+		"xdebug":{
+			"url":"http://localhost/datatables2/ejercicio3.html",
+			"super_globals": true,
+			"close_on_stop": true
+		}
+	}
+=======
+	]
+	,
+    "settings": {
+        "xdebug": {
+       	    "path_mapping": {
+            "/var/www/html/datatables2/" : "/home/juanda/datatables_servidor/",
+            },
+             "url": "http://localhost:9000/datatables2/ejercicio2.php"
+        }
+    }
+>>>>>>> 33b3fdbe8ec9f931a34432b88451d23a179de258
+}

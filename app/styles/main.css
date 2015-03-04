@@ -1,11 +1,11 @@
 #formulario {
-  display: none;
+	display: none;
 }
 /* ajustamos el css del boton*/
 td .editarbtn{
-  margin-right: 4px;
+	margin-right: 4px;
 }
 /*ponemos margen en top y bot y laterales auto*/
 body{
-  margin: 40px auto;
+	margin: 40px auto;
 }

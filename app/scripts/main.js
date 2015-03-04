@@ -1,4 +1,4 @@
-console.log('\'Allo \'Allo!');    'use strict';
+    'use strict';
    $(document).ready(function() {
        var miTabla = $('#miTabla').DataTable({
            'processing': true,
