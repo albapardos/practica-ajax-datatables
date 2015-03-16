@@ -1,4 +1,4 @@
-// Generated on 2015-01-27 using
+// Generated on 2015-02-17 using
 // generator-webapp 0.5.1
 'use strict';
 
@@ -19,7 +19,7 @@ module.exports = function (grunt) {
   // Configurable paths
   var config = {
     app: 'app',
-    dist: '/var/www/datatables2'
+    dist: '/var/www/practica-ajax'
   };
 
   // Define the configuration for all the tasks
@@ -326,12 +326,7 @@ module.exports = function (grunt) {
         'imagemin',
         'svgmin'
       ]
-    },
-    shell: {
-      dist: {
-       command: 'rm -rf <%= config.dist %>/*'
-     }
-   }
+    }
   });
 
 
@@ -374,7 +369,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('build', [
-    'shell:dist',
+    'clean:dist',
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
